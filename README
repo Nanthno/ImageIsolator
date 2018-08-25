@@ -1,0 +1,9 @@
+The ImageIsolator program was written as my, Anthony Hanson, final project for Discrete Structures in Fall 2018.
+
+To start the image isolator, run ImageIsolation.class (you must be in the directory above the ImageIsolator file.)
+
+In the program, begin by loading an image. For any area of a color which you want to keep in the final image, click a part of that area to place a marker first selecting the absolute and relative tolerance. Absolute tolerance is the amount each color channel (RGBA) is allowed to vary from the pixel clicked on. Relative tolerance is the amount each color channel (RGBA) of a pixel is allowed to vary from the pixel checked before it. If you wish to erase all the current markers, click the "Clear Markers" button. Once all markers are placed, click the "Isolate." This will make the finished isolated image appear on the right. If the image does not look like you wanted it to, you can add more markers (the original ones will stay), clear all markers (as explained above), or reset the program to allow you to restart completely (can also be achieved by simply loading a new image.) If you want to keep the image, press the "Save Image" button to save to processed image.
+
+If at some point you resize the window, you may have to press the "Rescale Image" button to make the loaded images match the window size.
+
+Within the file there is a file marked "TestImages". This contains a couple images to mess around with in the program.
